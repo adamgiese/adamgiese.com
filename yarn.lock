@@ -834,6 +834,13 @@
     lodash "^4.17.10"
     to-fast-properties "^2.0.0"
 
+"@githubprimer/octicons-react@^8.3.0":
+  version "8.3.0"
+  resolved "https://registry.yarnpkg.com/@githubprimer/octicons-react/-/octicons-react-8.3.0.tgz#93894243eb76f4a6718f7d94fbe0d349e1a6dd16"
+  integrity sha512-txquKlc2YDMMoekc3fG43eBdsMedumhbig9o8K8MYACMHLGbfhp9yHvaWadnrG6vS7XAztPnNtdkgUW5LHnqcg==
+  dependencies:
+    prop-types "^15.6.1"
+
 "@hot-loader/react-dom@^16.7.0-alpha.2.3":
   version "16.7.0"
   resolved "https://registry.yarnpkg.com/@hot-loader/react-dom/-/react-dom-16.7.0.tgz#892e9f13a4eff04bf9164870d0082ce2a69bee69"
