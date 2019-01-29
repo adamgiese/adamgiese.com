@@ -2,6 +2,8 @@
   --pinkHue: 330deg;
   --pinkSaturation: 50%;
   --pinkLightness: 60%;
+
+  --contentWidth: 900px;
 }
 
 body {
@@ -24,9 +26,12 @@ img {
   max-width: 100%;
 }
 
+.mainNavContainer {
+  background: hsl(var(--pinkHue), var(--pinkSaturation), var(--pinkLightness));
+}
+
 .mainNav {
   width: 100%;
-  background: hsl(var(--pinkHue), var(--pinkSaturation), var(--pinkLightness));
   flex-direction: column;
   display: none;
 }
@@ -55,7 +60,10 @@ img {
   .mainNav {
     display: flex;
     flex-direction: row;
+    max-width: var(--contentWidth);
+    margin: 0 auto;
   }
+
   .mainNavButton {
     display: none;
   }
@@ -63,12 +71,18 @@ img {
 
 
 
-nav a {
+.mainNav a {
   color: white;
   padding: 1rem;
   display: inline-block;
 }
 
+.mainNav a:first-child {
+  padding-left: 0;
+}
+
 .content {
   padding: 1rem;
+  max-width: var(--contentWidth);
+  margin: 0 auto;
 }

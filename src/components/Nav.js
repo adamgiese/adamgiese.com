@@ -19,7 +19,7 @@ class Nav extends React.Component {
 
   render() {
     return (
-      <>
+      <div className='mainNavContainer'>
         <button className='mainNavButton' onClick={this.toggleNav}>
           <Octicon size='medium'>
             <ThreeBars />
@@ -34,7 +34,7 @@ class Nav extends React.Component {
           <Link to="/speaking">Speaking</Link>
           {/*<Link to="/blog">Blog</Link>*/}
         </nav>
-      </>
+      </div>
     );
   }
 }
