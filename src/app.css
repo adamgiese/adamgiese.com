@@ -3,7 +3,15 @@
   --pinkSaturation: 50%;
   --pinkLightness: 60%;
 
+  --pink: hsl(var(--pinkHue), var(--pinkSaturation), var(--pinkLightness));
+
   --contentWidth: 900px;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
 }
 
 body {
@@ -11,8 +19,6 @@ body {
     'Lucida Grande', sans-serif;
   font-weight: 300;
   font-size: 16px;
-  margin: 0;
-  padding: 0;
 }
 
 a {
@@ -27,7 +33,7 @@ img {
 }
 
 .mainNavContainer {
-  background: hsl(var(--pinkHue), var(--pinkSaturation), var(--pinkLightness));
+  background: var(--pink);
 }
 
 .mainNav {
@@ -69,8 +75,6 @@ img {
   }
 }
 
-
-
 .mainNav a {
   color: white;
   padding: 1rem;
@@ -82,7 +86,11 @@ img {
 }
 
 .content {
-  padding: 1rem;
+  padding: 1rem 0;
   max-width: var(--contentWidth);
   margin: 0 auto;
+}
+
+.pageTitle {
+  color: var(--pink);
 }

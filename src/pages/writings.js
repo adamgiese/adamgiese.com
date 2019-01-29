@@ -1,7 +1,8 @@
 import React from 'react'
+import PageTitle from 'components/PageTitle'
 
 export default () => (
   <div>
-    Writings
+    <PageTitle>Writings</PageTitle>
   </div>
 )
