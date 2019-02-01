@@ -1,0 +1,40 @@
+.posts {
+  display: flex;
+  flex-flow: row wrap;
+  --postGutter: 1rem;
+}
+
+.post {
+  padding: 1rem;
+  box-shadow: 6px 6px 16px 2px var(--pink);
+  margin: var(--postGutter);
+
+  display: flex;
+  flex-direction: column;
+
+  --postVerticalRhythm: .5rem;
+}
+
+@media (min-width: 800px) {
+  .post {
+    width: calc(50% - (2 * var(--postGutter)));
+  }
+}
+
+.postPublication {
+}
+
+.postTitle {
+  line-height: 1;
+  margin-bottom: var(--postVerticalRhythm);
+}
+
+.postSnippet {
+  margin-top: auto;
+  margin-bottom: var(--postVerticalRhythm);
+}
+
+.postLink {
+  color: var(--pink);
+  text-decoration: underline;
+}
