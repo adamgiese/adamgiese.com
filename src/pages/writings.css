@@ -15,9 +15,15 @@
   --postVerticalRhythm: .5rem;
 }
 
+
 @media (min-width: 800px) {
   .post {
-    width: calc(50% - (2 * var(--postGutter)));
+    width: calc(50% - var(--postGutter) / 2);
+    margin: 0 0 var(--postGutter) 0;
+  }
+
+  .post:nth-child(odd) {
+    margin-right: var(--postGutter);
   }
 }
 
