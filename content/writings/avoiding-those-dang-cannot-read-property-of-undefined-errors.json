@@ -1,0 +1,7 @@
+{
+  "title": "Avoiding those dang cannot read property of undefined errors",
+  "link": "https://css-tricks.com/%E2%80%8B%E2%80%8Bavoiding-those-dang-cannot-read-property-of-undefined-errors/",
+  "publication": "CSS-Tricks",
+  "snippet": "Uncaught TypeError: Cannot read property foo of undefined. The dreaded error we all hit at some point in JavaScript development. Could be an empty state from an API that returns differently than you expected. Could be something else.",
+  "publicationDate": "Wed Feb 13 2019 07:00:36 GMT-0600 (Central Standard Time)"
+}

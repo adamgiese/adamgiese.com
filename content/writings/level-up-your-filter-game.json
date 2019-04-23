@@ -1,0 +1,7 @@
+{
+  "title": "Level up your .filter game",
+  "link": "https://css-tricks.com/level-up-your-filter-game/",
+  "publication": "CSS-Tricks",
+  "snippet": ".filter is a built-in array iteration method that accepts a predicate which is called against each of its values, and returns a subset of all values that return a truthy value.",
+  "publicationDate": "Fri Aug 17 2018 07:00:56 GMT-0500 (Central Daylight Time)"
+}
