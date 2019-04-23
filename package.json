@@ -7,12 +7,16 @@
     "build": "react-static build",
     "bundle": "react-static bundle",
     "export": "react-static export",
-    "serve": "serve dist -p 3000 -s"
+    "serve": "serve dist -p 3000 -s",
+    "gen": "plop",
+    "gen:writing": "plop writing"
   },
   "dependencies": {
     "@githubprimer/octicons-react": "^8.3.0",
     "@reach/router": "^1.2.1",
     "axios": "^0.18.0",
+    "inquirer-datepicker-prompt": "^0.4.2",
+    "plop": "^2.3.0",
     "react": "^16.6.3",
     "react-dom": "^16.6.3",
     "react-hot-loader": "^4.3.12",
