@@ -1,6 +1,6 @@
 import React from 'react'
 import PageTitle from 'components/PageTitle'
-import writings from 'content/writings';
+import writings from 'bundled/writings.json';
 import './writings.css'
 
 const LinkPost = ({title, link, snippet, publication}) => <article className='post post--link'>
