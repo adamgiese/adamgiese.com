@@ -13,7 +13,8 @@
     "export": "react-static export",
     "serve": "serve dist -p 3000 -s",
     "gen": "plop",
-    "gen:writing": "plop writing"
+    "gen:writing": "plop writing",
+    "gen:speaking": "plop speaking"
   },
   "dependencies": {
     "@githubprimer/octicons-react": "^8.3.0",
