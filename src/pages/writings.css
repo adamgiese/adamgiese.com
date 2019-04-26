@@ -1,7 +1,7 @@
 .posts {
   display: flex;
   flex-flow: row wrap;
-  --postGutter: 1rem;
+  --postGutter: 2rem;
 }
 
 .post {
