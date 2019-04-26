@@ -1,3 +1,4 @@
 node_modules
 tmp
-src/bundled
+dist
+src/bundled/*.json
