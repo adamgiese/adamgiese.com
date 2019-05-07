@@ -1,0 +1,7 @@
+{
+  "title": "Squashing bugs with git",
+  "link": "http://debugging-with-git.adamgiese.com/#/",
+  "eventName": "Tech Talk",
+  "eventDate": "Tue Jul 17 2018 12:00:11 GMT-0500 (Central Daylight Time)",
+  "snippet": "Beyond being a great tool for version control and team collaboration, git comes with a variety of tools for debugging code. This talk will cover some git debugging tools and how to maximize their usefulness with a solid understanding of fundamentals"
+}

@@ -1,0 +1,7 @@
+{
+  "title": "Composing music with composed functions",
+  "link": "https://2019.jsconf.us/speakers/adam-giese",
+  "eventName": "JSConf US",
+  "eventDate": "Mon Aug 12 2019 09:15:55 GMT-0500 (Central Daylight Time)",
+  "snippet": "Functional programming can be difficult to learn. Although there are many practical lessons, they are often hidden through academic lingo and dry examples. What if these basics could be livened up and taught through the lens of music? Together, we will go over some of the basics of functional programming including functional array manipulation, closure, and function composition. As I go through these, I will show how they can be applied to the creation of music and musical instruments using the Web Audio API."
+}

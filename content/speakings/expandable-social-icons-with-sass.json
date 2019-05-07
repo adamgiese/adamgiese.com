@@ -1,0 +1,7 @@
+{
+  "title": "Expandable Social Icons with Sass",
+  "link": "https://twitter.com/ATXSass/status/768978578662756353",
+  "eventName": "ATX Sass Meetup",
+  "eventDate": "Thu Aug 25 2016 19:00:35 GMT-0500 (Central Daylight Time)",
+  "snippet": "Using Sass techniques such as placeholders, mixins, maps, and control directives to create an easily expandable set of social icon links, all while maintaining DRY source code and small, performant compiled CSS."
+}
