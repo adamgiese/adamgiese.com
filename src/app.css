@@ -93,4 +93,13 @@ img {
 
 .pageTitle {
   color: var(--pink);
+  font-size: 4em;
+  margin-top: 1rem;
+  margin-bottom: 2rem;
+}
+
+.pageTitle svg {
+  margin-right: .25em;
+  position: relative;
+  top: -2px;
 }

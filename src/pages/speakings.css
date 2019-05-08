@@ -1,0 +1,23 @@
+.events--container {
+  overflow-x: auto;
+}
+
+.events {
+  width: 100%;
+  border-spacing: 0;
+  text-align: left;
+}
+
+.events thead {
+  background: hsl(0, 0%, 80%);
+}
+
+.events td, 
+.events th {
+  padding: 4px 8px;
+  font-size: 1.2rem;
+}
+
+.events tr:nth-child(even) {
+  background: hsl(0, 0%, 90%);
+}
