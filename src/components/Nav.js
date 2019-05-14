@@ -29,8 +29,6 @@ class Nav extends React.Component {
         <nav className={`mainNav ${this.state.navOpen ? 'open' : 'closed'}`}>
           <Link to="/">Home</Link>
           <Link to="/writings">Writing</Link>
-          <Link to="/projects">Projects</Link>
-          <Link to="/resume">Resume</Link>
           <Link to="/speaking">Speaking</Link>
         </nav>
       </div>
