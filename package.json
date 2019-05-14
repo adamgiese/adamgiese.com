@@ -7,6 +7,7 @@
     "stage": "react-static build --staging",
     "build": "react-static build",
     "prebundle": "yarn run bundle:all",
+    "prebuild": "yarn run bundle:all",
     "bundle": "react-static bundle",
     "bundle:writing": "node scripts/bundleWriting.js",
     "bundle:speaking": "node scripts/bundleSpeaking.js",
