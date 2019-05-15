@@ -20,6 +20,7 @@ const PostSwitch = props => {
 export default () => (
   <div>
     <PageTitle>Writings</PageTitle>
+    <title>Adam Giese - Writings</title>
     <div className='posts'>
       { writings.map(post => <PostSwitch {...post} />) }
     </div>

@@ -35,6 +35,7 @@ const EventTable = () => (
 
 export default () => (
   <div>
+    <title>Adam Giese - Speaking</title>
     <PageTitle>
       <Octicon icon={Megaphone} size='large' />
       Speaking
