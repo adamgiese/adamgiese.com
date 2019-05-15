@@ -5,6 +5,13 @@
 
   --pink: hsl(var(--pinkHue), var(--pinkSaturation), var(--pinkLightness));
 
+  --blueHue: 200deg;
+  --blueSaturation: 85%;
+  --blueLightness: 30%;
+
+  --blue: hsl(var(--blueHue), var(--blueSaturation), var(--blueLightness));
+
+
   --contentWidth: 900px;
 }
 
@@ -27,7 +34,7 @@ p {
 
 a {
   text-decoration: none;
-  color: #108db8;
+  color: var(--blue);
   font-weight: bold;
 }
 
