@@ -1,7 +1,7 @@
 :root {
   --pinkHue: 330deg;
   --pinkSaturation: 50%;
-  --pinkLightness: 60%;
+  --pinkLightness: 50%;
 
   --pink: hsl(var(--pinkHue), var(--pinkSaturation), var(--pinkLightness));
 
