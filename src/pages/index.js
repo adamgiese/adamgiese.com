@@ -4,6 +4,7 @@ import { withSiteData } from 'react-static'
 
 export default withSiteData(() => (
   <div>
+    <title>Adam Giese Home</title>
     <PageTitle>Howdy!</PageTitle>
     <p>
       My name is Adam Giese. I am a front-end developer with experience building websites and applications of all sizes.
