@@ -1,6 +1,7 @@
 import React from 'react'
 import PageTitle from 'components/PageTitle'
 import writings from 'bundled/writings.json';
+import Octicon, {Pencil} from '@githubprimer/octicons-react'
 import './writings.css'
 
 const LinkPost = ({title, link, snippet, publication}) => <article className='post post--link'>
@@ -19,7 +20,10 @@ const PostSwitch = props => {
 
 export default () => (
   <div>
-    <PageTitle>Writings</PageTitle>
+    <PageTitle>
+      <Octicon icon={Pencil} size='large' />
+      Writings
+    </PageTitle>
     <title>Adam Giese - Writings</title>
     <div className='posts'>
       { writings.map(post => <PostSwitch {...post} />) }
