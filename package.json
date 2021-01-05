@@ -21,7 +21,7 @@
   "dependencies": {
     "@githubprimer/octicons-react": "^8.5.0",
     "@reach/router": "^1.2.1",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "inquirer-datepicker-prompt": "^0.4.2",
     "plop": "^2.3.0",
     "react": "^16.6.3",
